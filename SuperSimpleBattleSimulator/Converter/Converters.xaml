@@ -1,0 +1,12 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SuperSimpleBattleSimulator.Converter">
+    <local:IntToDoubleConverter x:Key="IntToDoubleConverter" />
+    <local:UnitTypeToUnitIconConverter x:Key="UnitTypeToUnitIconConverter"/>
+    <local:ItemClickEventArgsToClickedItemConverter x:Key="ItemClickEventArgsToClickedItemConverter"/>
+    <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+    <local:NegateBoolConverter x:Key="NegateBoolConverter" />
+    <local:HealthToColorConverter x:Key="HealthToColorConverter" />
+</ResourceDictionary>
+    
